@@ -28,11 +28,11 @@ public class Main {
         }
 //        Duyệt các phần tử trong mảng để tìm GTLN và vị trí
         int max = array[0];
-        int index = 0;
+        int index = 0;  // số hạng thứ mấy?
         for (int j = 0; j < array.length; j++) {
             if (array[j] > max) {
                 max = array[j];
-                index = j + 1;
+                index = j;
             }
         }
         System.out.println("The largest property value in the list is " + max + " ,at position " + index);
